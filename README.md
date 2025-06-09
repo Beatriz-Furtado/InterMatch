@@ -18,3 +18,8 @@ source .venv/bin/activate  # Linux/macOS
 ```sh
 pip install -r requirements.txt
 ```
+
+## **Rodar o sistema**  
+```sh
+python main.py
+```
