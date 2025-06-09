@@ -1,0 +1,25 @@
+# Ambiente virtual
+venv/
+.env/
+
+# Arquivos temporários do Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Configurações de IDEs
+.vscode/
+.idea/
+
+# Arquivos gerados
+*.html
+*.log
+
+# CSVs ou dados sensíveis
+*.csv
+
+# Outros
+.DS_Store
+*.css
+*.js
