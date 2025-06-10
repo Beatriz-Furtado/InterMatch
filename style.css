@@ -1,0 +1,135 @@
+/* Estilos gerais do corpo da página */
+html, body {
+    height: 100%; /* FUNDAMENTAL: html e body ocupam 100% da altura da viewport */
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    overflow: hidden; /* Evita barras de rolagem indesejadas no corpo principal */
+}
+
+/* Estilização do Cabeçalho */
+.header {
+    color: #a30161;
+    padding: 0 1rem;
+    text-align: center;
+    position: fixed; /* Mantém o header fixo no topo */
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    height: 90px; /* Sua altura definida */
+    justify-content: flex-start;
+
+    background-image: url('logo.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* Adicione um overlay para legibilidade se necessário, como antes */
+    /* background-blend-mode: multiply; */
+    /* background-color: rgba(0, 0, 0, 0.5); */
+}
+
+/* NOVO: Estilo para o botão de toggle */
+.toggle-btn {
+    background: none;
+    border: none;
+    color: #a30161;
+    font-size: 24px;
+    cursor: pointer;
+    padding: 0 15px;
+}
+
+.header h1 {
+    margin: 1rem auto;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
+}
+
+/* Contêiner principal que agrupa a sidebar e o conteúdo */
+.main-container {
+    display: flex;
+    /* Ajuste para ocupar a altura restante da tela após o header */
+    height: calc(100vh - 90px); /* 100% da viewport menos a altura do header */
+    margin-top: 90px; /* Empurra o conteúdo para baixo do header fixo */
+    /* background-color: lightblue; /* Remova após depuração */
+}
+
+/* Estilização da Barra Lateral (Sidebar) */
+.sidebar {
+    width: 200px;
+    background-color: #a30161;
+    color: white;
+    /* A altura da sidebar agora é 100% do seu pai (.main-container) */
+    height: 100%;
+    position: fixed; /* Mantenha fixo se quiser que ele role junto com o conteúdo */
+    /* Note: Se o .main-container já tiver position: relative, você pode fazer position: absolute */
+    /* Mas fixed aqui vai funcionar se .main-container não for seu offset parent */
+    top: 90px; /* Começa abaixo do header */
+    left: 0;
+    padding-top: 20px;
+    transition: transform 0.3s ease-in-out;
+    transform: translateX(0);
+    z-index: 90; /* Abaixo do header */
+    overflow-y: auto; /* Adicione rolagem se o conteúdo da sidebar for muito grande */
+}
+
+/* Classe para a sidebar quando estiver recolhida */
+.sidebar.collapsed {
+    transform: translateX(-100%);
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar nav ul li a {
+    display: block;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    margin-top: 20px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #9e2e71;
+}
+
+/* Estilização da Área de Conteúdo Principal */
+.content {
+    flex-grow: 1; /* Ocupa todo o espaço horizontal restante no .main-container */
+    margin-left: 200px; /* Largura da sidebar (200px) */
+    padding: 20px;
+    transition: margin-left 0.3s ease-in-out;
+    box-sizing: border-box; /* Garante que padding não adicione à largura/altura total */
+
+    /* FUNDAMENTAL: Configurar como flex container para que dynamic-content-area possa crescer */
+    display: flex;
+    flex-direction: column; /* Para que os filhos se organizem verticalmente */
+    height: 100%; /* Ocupa 100% da altura do .main-container */
+    overflow-y: auto; /* Adiciona rolagem se o conteúdo do grafo for maior que a tela */
+    /* background-color: lightgreen; /* Remova após depuração */
+}
+
+/* Estilo para o conteúdo quando a sidebar está recolhida */
+.content.full-width {
+    margin-left: 0; /* Remove a margem quando a sidebar está recolhida */
+}
+
+/* ESTILIZAÇÃO DA ÁREA ONDE O GRAFO SERÁ INJETADO */
+#dynamic-content-area {
+    flex-grow: 1; /* FUNDAMENTAL: Ocupa todo o espaço vertical disponível no .content */
+    display: flex; /* FUNDAMENTAL: Torna-o um flex container para o iframe */
+    flex-direction: column; /* Para o iframe se estender verticalmente */
+    /* background-color: pink; /* Remova após depuração */
+}
+
+/* ESTILIZAÇÃO DO IFRAME DENTRO DA ÁREA DE CONTEÚDO DINÂMICA */
+#dynamic-content-area iframe {
+    width: 100%; /* Ocupa 100% da largura do seu pai (#dynamic-content-area) */
+    height: 100%; /* Ocupa 100% da altura do seu pai (#dynamic-content-area) */
+    border: none; /* Remove a borda padrão do iframe */
+}
