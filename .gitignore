@@ -1,6 +1,7 @@
 # Ambiente virtual
 venv/
 .env/
+.venv/
 
 # Arquivos temporários do Python
 __pycache__/
@@ -13,7 +14,7 @@ __pycache__/
 .idea/
 
 # Arquivos gerados
-*.html
+grafo_interesses_full.html
 *.log
 
 # CSVs ou dados sensíveis
@@ -21,5 +22,5 @@ __pycache__/
 
 # Outros
 .DS_Store
-*.css
-*.js
+*.png
+lib/
