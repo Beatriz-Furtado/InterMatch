@@ -23,7 +23,7 @@ html, body {
     height: 90px; /* Sua altura definida */
     justify-content: flex-start;
 
-    background-image: url('logo.png');
+    background-image: url('logo_teste.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
