@@ -14,7 +14,7 @@ __pycache__/
 .idea/
 
 # Arquivos gerados
-grafo_interesses_full.html
+#grafo_interesses_full.html
 *.log
 
 # CSVs ou dados sensíveis
