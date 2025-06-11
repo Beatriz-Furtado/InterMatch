@@ -24,13 +24,13 @@ for _, row in df.iterrows():
 
 
 # Configuração da rede
-net = Network(height='900px', width='100%', bgcolor='#F8E5E5', font_color='black', notebook=False, cdn_resources='remote')
+net = Network(height='900px', width='100%', bgcolor='#CCCCCC', font_color='black', notebook=False, cdn_resources='remote')
 net.barnes_hut(gravity=-10000, central_gravity=0.3, spring_length=50)
 
 # Suas cores existentes
 cores_pessoas_base = ['#a30161', '#f4cbc1', '#0097b2', '#fbb633', '#8A2BE2', '#DC143C', '#228B22', '#FF8C00'] # Adicionei mais algumas cores para ter mais variedade
 cor_interesse = '#d52c01'
-cor_arestas = '#5D3B2E'
+cor_arestas = '#1C133B'
 
 # --- NOVO: Mapeamento de pessoas para cores ---
 pessoa_cores = {} # Dicionário para armazenar a cor de cada pessoa
