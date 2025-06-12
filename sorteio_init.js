@@ -1,4 +1,4 @@
-// sorteio_init.js (Versão com campo de senha no HTML e Hash para a senha)
+// sorteio_init.js (Versão com campo de senha no HTML, Hash para a senha e Sincronização JSONBin.io)
 
 setTimeout(function() { 
     const passwordContainer = document.getElementById('password-container');
@@ -24,18 +24,21 @@ setTimeout(function() {
     const networkContainer = document.getElementById('mynetwork-sorteio');
 
     // !!! ATENÇÃO: COLOQUE AQUI O HASH SHA-256 DA SUA SENHA DE ADMINISTRADOR !!!
-    // Exemplo de SHA-256 para "elasconecta2025" (VOCÊ DEVE GERAR O SEU!)
     const ADMIN_PASSWORD_HASH = "70634fbd18273fdc823c0e55d173d842e0ca16523fbebfbda0979b021e626530"; 
+
+    // --- NOVAS VARIÁVEIS PARA JSONBIN.IO ---
+    // !!! ATENÇÃO: COLOQUE SUA MASTER KEY REAL AQUI !!!
+    const JSONBIN_MASTER_KEY = "$2a$10$Dqq7na7JDXk8dBFI/0a81uiQT7.YO5RgFhgzdbWwNrbaeaYio7oc."; 
+    // !!! ATENÇÃO: COLOQUE SEU BIN ID REAL AQUI !!!
+    const JSONBIN_BIN_ID = "684ad82d8561e97a5022ff63"; 
+    const JSONBIN_API_URL = `https://api.jsonbin.io/v3/b/${JSONBIN_BIN_ID}`;
+    // ------------------------------------
 
     // Função assíncrona para gerar o hash SHA-256 de uma string
     async function sha256(message) {
-        // Encode the string as UTF-8
         const msgBuffer = new TextEncoder().encode(message);
-        // Hash the message
         const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
-        // Convert ArrayBuffer to Array of bytes
         const hashArray = Array.from(new Uint8Array(hashBuffer));
-        // Convert bytes to hex string
         const hexHash = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
         return hexHash;
     }
@@ -49,7 +52,7 @@ setTimeout(function() {
     const corPessoa2 = '#0097b2';
     const corArestasSorteio = '#5D3B2E';
 
-    // --- FUNÇÃO PARA CARREGAR DADOS DO GRAFO (DO JSON) ---
+    // --- FUNÇÃO PARA CARREGAR DADOS DO GRAFO (DO JSON LOCAL) ---
     function loadGraphDataFromJson() {
         fetch('graph_data.json')
             .then(response => {
@@ -98,6 +101,7 @@ setTimeout(function() {
 
                 console.log("Dados de pessoas e interesses extraídos do JSON para sorteio:", pessoasData);
                 sorteioInfo.textContent = "Dados prontos para o sorteio!";
+                // Chamar checkAndUpdateSorteioResult para carregar o estado inicial do sorteio do JSONBin.io
                 checkAndUpdateSorteioResult(); 
             })
             .catch(error => {
@@ -112,90 +116,113 @@ setTimeout(function() {
             network.destroy();
             network = null;
         }
-        if (data.area_sorteada && data.pessoa1 && data.pessoa2) {
-            sorteioInfo.textContent = `Última Área sorteada: ${data.area_sorteada}`;
-            sorteioResultado.innerHTML = `Últimas Pessoas sorteadas: <span style="color:#700041">${data.pessoa1}</span> e <span style="color:#700041">${data.pessoa2}</span>!`;
-
-            const nodes = new vis.DataSet([
-                { id: data.pessoa1, label: data.pessoa1, shape: 'dot', size: 60, color: corPessoa1, font: { size: 30, color: '#333' } },
-                { id: data.pessoa2, label: data.pessoa2, shape: 'dot', size: 60, color: corPessoa2, font: { size: 30, color: '#333' } },
-                { id: data.area_sorteada, label: data.area_sorteada, shape: 'circle', size: 8, color: corAreaSorteada, font: { size: 12, color: 'black' } }
-            ]);
-
-            const edges = new vis.DataSet([
-                { from: data.pessoa1, to: data.area_sorteada, width: 4, color: corArestasSorteio },
-                { from: data.pessoa2, to: data.area_sorteada, width: 4, color: corArestasSorteio }
-            ]);
-
-            const visData = { nodes: nodes, edges: edges };
-
-            const options = {
-                physics: {
-                    barnesHut: {
-                        gravity: -30000,
-                        centralGravity: 0.3,
-                        springLength: 350,
-                        springStrength: 0.005
-                    },
-                    stabilization: {
-                        iterations: 100
-                    }
-                },
-                interaction: {
-                    zoomView: true,
-                    dragNodes: true,
-                    dragView: true
-                }
-            };
-
-            network = new vis.Network(networkContainer, visData, options);
-        } else {
+        // Se data for null ou vazio, limpa a exibição
+        if (!data || !data.area_sorteada || !data.pessoa1 || !data.pessoa2) {
             sorteioInfo.textContent = "Nenhum sorteio realizado ainda ou dados incompletos.";
             sorteioResultado.innerHTML = "";
-            networkContainer.innerHTML = ""; 
+            if (networkContainer) networkContainer.innerHTML = ""; 
+            return; // Sai da função se não houver dados válidos para exibir
         }
+        
+        sorteioInfo.textContent = `Última Área sorteada: ${data.area_sorteada}`;
+        sorteioResultado.innerHTML = `Últimas Pessoas sorteadas: <span style="color:#700041">${data.pessoa1}</span> e <span style="color:#700041">${data.pessoa2}</span>!`;
+
+        const nodes = new vis.DataSet([
+            { id: data.pessoa1, label: data.pessoa1, shape: 'dot', size: 60, color: corPessoa1, font: { size: 30, color: '#333' } },
+            { id: data.pessoa2, label: data.pessoa2, shape: 'dot', size: 60, color: corPessoa2, font: { size: 30, color: '#333' } },
+            { id: data.area_sorteada, label: data.area_sorteada, shape: 'circle', size: 8, color: corAreaSorteada, font: { size: 12, color: 'black' } }
+        ]);
+
+        const edges = new vis.DataSet([
+            { from: data.pessoa1, to: data.area_sorteada, width: 4, color: corArestasSorteio },
+            { from: data.pessoa2, to: data.area_sorteada, width: 4, color: corArestasSorteio }
+        ]);
+
+        const visData = { nodes: nodes, edges: edges };
+
+        const options = {
+            physics: {
+                barnesHut: {
+                    gravity: -30000,
+                    centralGravity: 0.3,
+                    springLength: 350,
+                    springStrength: 0.005
+                },
+                stabilization: {
+                    iterations: 100
+                }
+            },
+            interaction: {
+                zoomView: true,
+                dragNodes: true,
+                dragView: true
+            }
+        };
+
+        network = new vis.Network(networkContainer, visData, options);
     }
 
-    // --- FUNÇÃO PARA CHECAR E ATUALIZAR O RESULTADO DO SORTEIO (para "todos") ---
+    // --- FUNÇÃO PARA LER O RESULTADO DO SORTEIO (DO JSONBIN.IO) ---
     function checkAndUpdateSorteioResult() {
-        fetch('sorteio_resultado.json?t=' + new Date().getTime()) 
-            .then(response => {
-                if (!response.ok) {
-                    console.warn("sorteio_resultado.json não encontrado ou erro ao carregar. Isso é normal se o arquivo não tiver sido criado ou estiver vazio inicialmente.");
-                    return null; 
+        fetch(`${JSONBIN_API_URL}/latest?t=${new Date().getTime()}`, { // Adiciona um timestamp para evitar cache
+            headers: {
+                'X-Master-Key': JSONBIN_MASTER_KEY // Necessário se o bin for privado ou para evitar rate limits
+            }
+        })
+        .then(response => {
+            if (!response.ok) {
+                // O status 404 pode significar que o bin está vazio ou não foi criado ainda.
+                // Isso é aceitável na primeira carga.
+                if (response.status === 404) {
+                    console.warn("JSONBin não encontrado ou vazio. Isso é normal se o arquivo não tiver sido criado ou estiver vazio inicialmente.");
+                    return null;
                 }
-                return response.json();
-            })
-            .then(data => {
-                if (data && data.ultima_atualizacao && data.ultima_atualizacao !== lastSorteioUpdateTime) {
-                    console.log("Novo resultado de sorteio detectado:", data);
-                    displaySorteioResult(data);
-                    lastSorteioUpdateTime = data.ultima_atualizacao;
+                throw new Error(`Erro ao carregar dados do JSONBin: ${response.statusText} (Status: ${response.status})`);
+            }
+            return response.json();
+        })
+        .then(jsonBinResponse => {
+            // JSONBin.io retorna os dados dentro de um objeto 'record'
+            const data = jsonBinResponse ? jsonBinResponse.record : null; 
+            
+            if (data && data.ultima_atualizacao && data.ultima_atualizacao !== lastSorteioUpdateTime) {
+                console.log("Novo resultado de sorteio detectado do JSONBin:", data);
+                displaySorteioResult(data);
+                lastSorteioUpdateTime = data.ultima_atualizacao;
+            } else if (!data || !data.ultima_atualizacao) { // Se o bin estiver vazio ou sem dados de sorteio
+                if (lastSorteioUpdateTime !== null) { // Apenas se já houve um sorteio exibido antes
+                     console.log("JSONBin esvaziado ou sem dados de sorteio. Limpando exibição.");
+                     displaySorteioResult({}); // Passa um objeto vazio para limpar a tela
+                     lastSorteioUpdateTime = null;
                 }
-            })
-            .catch(error => {
-                console.error('Erro ao verificar atualização do sorteio:', error);
-            });
+            }
+        })
+        .catch(error => {
+            console.error('Erro ao verificar atualização do sorteio do JSONBin:', error);
+            // sorteioInfo.textContent = `Erro ao carregar sorteio (JSONBin): ${error.message}`; // Comentado para não exibir se sorteioInfo estiver oculto
+        });
     }
 
     // --- LÓGICA DE AUTENTICAÇÃO DO ADMINISTRADOR (AGORA COM HASH) ---
-    authBtn.addEventListener('click', async function() { // Adicione 'async' aqui!
-        const enteredPassword = passwordInput.value; // Pega o valor do campo de senha
-        const enteredPasswordHash = await sha256(enteredPassword); // Gera o hash da senha digitada
+    authBtn.addEventListener('click', async function() { 
+        const enteredPassword = passwordInput.value;
+        const enteredPasswordHash = await sha256(enteredPassword);
 
-        if (enteredPasswordHash === ADMIN_PASSWORD_HASH) { // Compara os HASHES
-            passwordContainer.style.display = 'none'; // Oculta o campo de senha
-            sortearBtn.style.display = 'block';       // Mostra o botão de sorteio
+        if (enteredPasswordHash === ADMIN_PASSWORD_HASH) {
+            passwordContainer.style.display = 'none';
+            sortearBtn.style.display = 'block';
             sorteioInfo.textContent = "Autenticação bem-sucedida! Pronto para sortear.";
             console.log("Admin autenticado.");
+            // Opcional: force uma atualização imediata após a autenticação
+            checkAndUpdateSorteioResult(); 
         } else {
             alert("Senha incorreta. Apenas administradores podem realizar o sorteio.");
-            passwordInput.value = ''; // Limpa o campo de senha
+            passwordInput.value = '';
             console.warn("Tentativa de login falhou.");
         }
     });
 
-    // --- LÓGICA DO SORTEIO (AGORA SEM O PROMPT) ---
+    // --- LÓGICA DO SORTEIO E ESCRITA (PARA O JSONBIN.IO) ---
     sortearBtn.addEventListener('click', function() {
         console.log("Botão Sortear Dupla CLICADO!"); 
 
@@ -204,7 +231,7 @@ setTimeout(function() {
             return;
         }
 
-        sorteioInfo.textContent = "";
+        sorteioInfo.textContent = ""; // Limpa antes de sortear
         sorteioResultado.textContent = "";
         if (network) {
             network.destroy();
@@ -243,22 +270,50 @@ setTimeout(function() {
         const pessoa1 = pessoasComArea[indicesSorteados[0]].nome;
         const pessoa2 = pessoasComArea[indicesSorteados[1]].nome;
 
-        sorteioResultado.innerHTML = `Pessoas sorteadas: <span style="color:${corPessoa1}">${pessoa1}</span> e <span style="color:${corPessoa2}">${pessoa2}</span>!`;
-
         const sorteioResultData = {
             ultima_atualizacao: new Date().toISOString(), 
             area_sorteada: areaSorteada,
             pessoa1: pessoa1,
             pessoa2: pessoa2
         };
+        
+        // Atualiza localmente imediatamente (para a tela do admin)
         displaySorteioResult(sorteioResultData);
+        lastSorteioUpdateTime = sorteioResultData.ultima_atualizacao;
 
-        console.warn("Atenção: Para que outros usuários vejam este sorteio, você deve EDITAR MANUALMENTE o arquivo 'sorteio_resultado.json' no seu disco com os dados do sorteio.");
-        console.warn("Dados para copiar/colar no 'sorteio_resultado.json':", sorteioResultData);
+
+        // --- SALVA O RESULTADO NO JSONBIN.IO ---
+        fetch(JSONBIN_API_URL, {
+            method: 'PUT', // PUT para atualizar o Bin existente
+            headers: {
+                'Content-Type': 'application/json',
+                'X-Master-Key': JSONBIN_MASTER_KEY, // A Master Key é crucial aqui para PERMISSÃO de escrita
+                'X-Bin-Meta': false // Não atualiza meta-dados do bin, apenas o conteúdo
+            },
+            body: JSON.stringify(sorteioResultData)
+        })
+        .then(response => {
+            if (!response.ok) {
+                // Se a requisição falhar (ex: chave incorreta, Bin ID errado, limite de requisições)
+                throw new Error(`Erro ${response.status} ao salvar sorteio no JSONBin: ${response.statusText}`);
+            }
+            return response.json();
+        })
+        .then(data => {
+            console.log("Sorteio salvo com sucesso no JSONBin.io:", data);
+            sorteioInfo.textContent = "Sorteio realizado e publicado!"; 
+        })
+        .catch(error => {
+            console.error('Erro ao salvar sorteio no JSONBin.io:', error);
+            alert("Erro ao publicar o sorteio online. Verifique o console.");
+            // sorteioInfo.textContent = `Erro ao publicar sorteio: ${error.message}`; // Comentado para não exibir se sorteioInfo estiver oculto
+        });
     });
 
-    setInterval(checkAndUpdateSorteioResult, 5000);
+    // Inicia a verificação periódica do JSONBin.io
+    setInterval(checkAndUpdateSorteioResult, 5000); // Verifica a cada 5 segundos
 
+    // Carrega os dados iniciais do grafo e então, o último sorteio do JSONBin.io
     loadGraphDataFromJson(); 
 
 }, 200);
