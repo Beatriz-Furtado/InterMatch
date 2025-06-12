@@ -23,7 +23,7 @@ html, body {
     height: 90px; /* Sua altura definida */
     justify-content: flex-start;
 
-    background-image: url('logo_teste.png');
+    background-image: url('imagem_header.png');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -44,7 +44,6 @@ html, body {
 
 .header h1 {
     margin: 1rem auto;
-    text-shadow: 1px 1px 3px rgba(0,0,0,0.7);
 }
 
 /* Contêiner principal que agrupa a sidebar e o conteúdo */
@@ -95,7 +94,7 @@ html, body {
 }
 
 .sidebar nav ul li a:hover {
-    background-color: #9e2e71;
+    background-color: #700041;
 }
 
 /* Estilização da Área de Conteúdo Principal */
