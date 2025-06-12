@@ -1,19 +1,19 @@
-// sorteio_init.js (Versão com campo de senha no HTML)
+// sorteio_init.js (Versão com campo de senha no HTML e Hash para a senha)
 
 setTimeout(function() { 
-    const passwordContainer = document.getElementById('password-container'); // NOVO
-    const passwordInput = document.getElementById('password-input');         // NOVO
-    const authBtn = document.getElementById('auth-btn');                     // NOVO
+    const passwordContainer = document.getElementById('password-container');
+    const passwordInput = document.getElementById('password-input');
+    const authBtn = document.getElementById('auth-btn');
     const sortearBtn = document.getElementById('sortear-btn'); 
 
-    if (sortearBtn) { // Verifica o botão de sorteio
+    if (sortearBtn) {
         console.log("SortearBtn encontrado! Adicionando listener...", sortearBtn);
     } else {
         console.error("ERRO GRAVE: Botão 'sortear-btn' NÃO ENCONTRADO no DOM do iframe. Verifique o HTML.");
         return; 
     }
 
-    if (!passwordInput || !authBtn || !passwordContainer) { // Verifica os novos elementos
+    if (!passwordInput || !authBtn || !passwordContainer) {
         console.error("ERRO GRAVE: Elementos de autenticação (password-input, auth-btn, password-container) NÃO ENCONTRADOS. Verifique o HTML.");
         return;
     }
@@ -23,7 +23,22 @@ setTimeout(function() {
     const sorteioResultado = document.getElementById('sorteio-resultado');
     const networkContainer = document.getElementById('mynetwork-sorteio');
 
-    const ADMIN_PASSWORD = "elasconecta2025"; // !!! ATENÇÃO: SENHA HARDCODED E INSEGURA PARA DEMONSTRAÇÃO !!!
+    // !!! ATENÇÃO: COLOQUE AQUI O HASH SHA-256 DA SUA SENHA DE ADMINISTRADOR !!!
+    // Exemplo de SHA-256 para "elasconecta2025" (VOCÊ DEVE GERAR O SEU!)
+    const ADMIN_PASSWORD_HASH = "70634fbd18273fdc823c0e55d173d842e0ca16523fbebfbda0979b021e626530"; 
+
+    // Função assíncrona para gerar o hash SHA-256 de uma string
+    async function sha256(message) {
+        // Encode the string as UTF-8
+        const msgBuffer = new TextEncoder().encode(message);
+        // Hash the message
+        const hashBuffer = await crypto.subtle.digest('SHA-256', msgBuffer);
+        // Convert ArrayBuffer to Array of bytes
+        const hashArray = Array.from(new Uint8Array(hashBuffer));
+        // Convert bytes to hex string
+        const hexHash = hashArray.map(b => b.toString(16).padStart(2, '0')).join('');
+        return hexHash;
+    }
 
     let pessoasData = [];
     let network = null;
@@ -104,8 +119,7 @@ setTimeout(function() {
             const nodes = new vis.DataSet([
                 { id: data.pessoa1, label: data.pessoa1, shape: 'dot', size: 60, color: corPessoa1, font: { size: 30, color: '#333' } },
                 { id: data.pessoa2, label: data.pessoa2, shape: 'dot', size: 60, color: corPessoa2, font: { size: 30, color: '#333' } },
-                // DIMINUA AQUI: Nó de Interesse
-                { id: data.area_sorteada, label: data.area_sorteada, shape: 'circle', size: 8, color: corAreaSorteada, font: { size: 12, color: 'black' } } // Reduzido de size: 15 para 8, font: 18 para 12
+                { id: data.area_sorteada, label: data.area_sorteada, shape: 'circle', size: 8, color: corAreaSorteada, font: { size: 12, color: 'black' } }
             ]);
 
             const edges = new vis.DataSet([
@@ -164,10 +178,12 @@ setTimeout(function() {
             });
     }
 
-    // --- LÓGICA DE AUTENTICAÇÃO DO ADMINISTRADOR (NOVA) ---
-    authBtn.addEventListener('click', function() {
+    // --- LÓGICA DE AUTENTICAÇÃO DO ADMINISTRADOR (AGORA COM HASH) ---
+    authBtn.addEventListener('click', async function() { // Adicione 'async' aqui!
         const enteredPassword = passwordInput.value; // Pega o valor do campo de senha
-        if (enteredPassword === ADMIN_PASSWORD) {
+        const enteredPasswordHash = await sha256(enteredPassword); // Gera o hash da senha digitada
+
+        if (enteredPasswordHash === ADMIN_PASSWORD_HASH) { // Compara os HASHES
             passwordContainer.style.display = 'none'; // Oculta o campo de senha
             sortearBtn.style.display = 'block';       // Mostra o botão de sorteio
             sorteioInfo.textContent = "Autenticação bem-sucedida! Pronto para sortear.";
