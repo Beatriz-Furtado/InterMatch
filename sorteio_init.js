@@ -99,17 +99,18 @@ setTimeout(function() {
         }
         if (data.area_sorteada && data.pessoa1 && data.pessoa2) {
             sorteioInfo.textContent = `Última Área sorteada: ${data.area_sorteada}`;
-            sorteioResultado.innerHTML = `Últimas Pessoas sorteadas: <span style="color:${corPessoa1}">${data.pessoa1}</span> e <span style="color:${corPessoa2}">${data.pessoa2}</span>!`;
+            sorteioResultado.innerHTML = `Últimas Pessoas sorteadas: <span style="color:#700041">${data.pessoa1}</span> e <span style="color:#700041">${data.pessoa2}</span>!`;
 
             const nodes = new vis.DataSet([
-                { id: data.pessoa1, label: data.pessoa1, shape: 'dot', size: 40, color: corPessoa1, font: { size: 25, color: '#333' } },
-                { id: data.pessoa2, label: data.pessoa2, shape: 'dot', size: 40, color: corPessoa2, font: { size: 25, color: '#333' } },
-                { id: data.area_sorteada, label: data.area_sorteada, shape: 'circle', size: 20, color: corAreaSorteada, font: { size: 22, color: 'black' } }
+                { id: data.pessoa1, label: data.pessoa1, shape: 'dot', size: 60, color: corPessoa1, font: { size: 30, color: '#333' } },
+                { id: data.pessoa2, label: data.pessoa2, shape: 'dot', size: 60, color: corPessoa2, font: { size: 30, color: '#333' } },
+                // DIMINUA AQUI: Nó de Interesse
+                { id: data.area_sorteada, label: data.area_sorteada, shape: 'circle', size: 8, color: corAreaSorteada, font: { size: 12, color: 'black' } } // Reduzido de size: 15 para 8, font: 18 para 12
             ]);
 
             const edges = new vis.DataSet([
-                { from: data.pessoa1, to: data.area_sorteada, width: 2, color: corArestasSorteio },
-                { from: data.pessoa2, to: data.area_sorteada, width: 2, color: corArestasSorteio }
+                { from: data.pessoa1, to: data.area_sorteada, width: 4, color: corArestasSorteio },
+                { from: data.pessoa2, to: data.area_sorteada, width: 4, color: corArestasSorteio }
             ]);
 
             const visData = { nodes: nodes, edges: edges };
@@ -119,7 +120,7 @@ setTimeout(function() {
                     barnesHut: {
                         gravity: -30000,
                         centralGravity: 0.3,
-                        springLength: 250,
+                        springLength: 350,
                         springStrength: 0.005
                     },
                     stabilization: {
