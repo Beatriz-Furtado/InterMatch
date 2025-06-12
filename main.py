@@ -3,7 +3,7 @@ import networkx as nx
 from pyvis.network import Network
 from collections import Counter
 import re
-import json # Importa a biblioteca json
+import json
 
 # --- LEITURA DE CSV E CRIAÇÃO DO GRAFO NETWORKX (G) ---
 df = pd.read_csv('ListaParticipantes_Elas.csv', sep=';')
@@ -64,7 +64,7 @@ output_full_html_file_name = "grafo_interesses_full.html"
 net.show(output_full_html_file_name)
 print(f"HTML completo do grafo salvo em {output_full_html_file_name}")
 
-# --- BLOCO: EXPORTAÇÃO DOS DADOS DO GRAFO PARA JSON ---
+# --- BLOCO: EXPORTAÇÃO DOS DADOS DO GRAFO PARA JSON (graph_data.json) ---
 nodes_for_json = []
 for node, data in G.nodes(data=True):
     node_id = str(node)
@@ -98,5 +98,18 @@ graph_data_json = {
 
 output_json_file_name = "graph_data.json"
 with open(output_json_file_name, "w", encoding="utf-8") as f:
-    json.dump(graph_data_json, f, indent=4) # indent para legibilidade
+    json.dump(graph_data_json, f, indent=4)
 print(f"Dados do grafo exportados para {output_json_file_name}")
+
+# --- NOVO BLOCO: CRIAÇÃO DO ARQUIVO PARA RESULTADO DO SORTEIO (sorteio_resultado.json) ---
+# Inicializa o arquivo de resultado do sorteio vazio ou com um estado padrão
+output_sorteio_resultado_file = "sorteio_resultado.json"
+initial_sorteio_data = {
+    "ultima_atualizacao": None,
+    "area_sorteada": None,
+    "pessoa1": None,
+    "pessoa2": None
+}
+with open(output_sorteio_resultado_file, "w", encoding="utf-8") as f:
+    json.dump(initial_sorteio_data, f, indent=4)
+print(f"Arquivo de resultado do sorteio criado/reinicializado em {output_sorteio_resultado_file}")
