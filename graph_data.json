@@ -1,0 +1,3370 @@
+{
+    "nodes": [
+        {
+            "id": "Beatriz De Souza Meneses",
+            "label": "Beatriz De Souza Meneses",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Desenvolvimento de Software",
+            "label": "Desenvolvimento de Software",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Ci\u00eancia de Dados",
+            "label": "Ci\u00eancia de Dados",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Intelig\u00eancia Artifical / Machile Learning",
+            "label": "Intelig\u00eancia Artifical / Machile Learning",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Mulheres na Tecnologia",
+            "label": "Mulheres na Tecnologia",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Computa\u00e7\u00e3o em Nuvem",
+            "label": "Computa\u00e7\u00e3o em Nuvem",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "DevOps",
+            "label": "DevOps",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Internet das Coisas (IoT)",
+            "label": "Internet das Coisas (IoT)",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Rebeca Barbosa Louren\u00e7o",
+            "label": "Rebeca Barbosa Louren\u00e7o",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Educa\u00e7\u00e3o e Tecnologia",
+            "label": "Educa\u00e7\u00e3o e Tecnologia",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Vit\u00f3ria Maria do Nascimento",
+            "label": "Vit\u00f3ria Maria do Nascimento",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Ciberseguran\u00e7a",
+            "label": "Ciberseguran\u00e7a",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Blockchain / Web3",
+            "label": "Blockchain / Web3",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Tamires Santiago Oliveira",
+            "label": "Tamires Santiago Oliveira",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Jo\u00e3o Antonio de Melo Queiroz",
+            "label": "Jo\u00e3o Antonio de Melo Queiroz",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "UX/UI Designer",
+            "label": "UX/UI Designer",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Games e Realidade Virtual",
+            "label": "Games e Realidade Virtual",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Mirelle Maria de Oliveira Rocha",
+            "label": "Mirelle Maria de Oliveira Rocha",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Joyce Vit\u00f3ria Nascimento Rodrigues",
+            "label": "Joyce Vit\u00f3ria Nascimento Rodrigues",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Maria Eduarda Viana Cordeiro dos Santos",
+            "label": "Maria Eduarda Viana Cordeiro dos Santos",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Caroline de Oliveira Cordeiro",
+            "label": "Caroline de Oliveira Cordeiro",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Maelly Kelly Viana de sousa",
+            "label": "Maelly Kelly Viana de sousa",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Open Source e Comunidades",
+            "label": "Open Source e Comunidades",
+            "tipo": "interesse",
+            "color": "#d52c01",
+            "shape": "circle"
+        },
+        {
+            "id": "Rayanne de Oliveira Bento",
+            "label": "Rayanne de Oliveira Bento",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Ana Livia Costa Celestino Santos",
+            "label": "Ana Livia Costa Celestino Santos",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Brenda Maria da Silva Diniz",
+            "label": "Brenda Maria da Silva Diniz",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Patr\u00edcia Santos Cunha",
+            "label": "Patr\u00edcia Santos Cunha",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Eliane Tamara Lima Oliveira",
+            "label": "Eliane Tamara Lima Oliveira",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Ana Clara Gon\u00e7alves da Silva Dias",
+            "label": "Ana Clara Gon\u00e7alves da Silva Dias",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Vinicius Ataide Delgado",
+            "label": "Vinicius Ataide Delgado",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Ra\u00edna de Ara\u00fajo Souza",
+            "label": "Ra\u00edna de Ara\u00fajo Souza",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Moab Alves Silva",
+            "label": "Moab Alves Silva",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Joyce Greg\u00f3rio da Silva",
+            "label": "Joyce Greg\u00f3rio da Silva",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Sabrina Sousa",
+            "label": "Sabrina Sousa",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Erik Luan",
+            "label": "Erik Luan",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Bruna Rocha Cavalcanti",
+            "label": "Bruna Rocha Cavalcanti",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Maria Eduarda Marinho Cavalcanti",
+            "label": "Maria Eduarda Marinho Cavalcanti",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Gabriela Ferreira Pereira",
+            "label": "Gabriela Ferreira Pereira",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Noiana De Paula",
+            "label": "Noiana De Paula",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Ryan Vinn\u00edcius Tielles Almeida da Silva",
+            "label": "Ryan Vinn\u00edcius Tielles Almeida da Silva",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "JOSE DO BOMFIM TRUTA NETO",
+            "label": "JOSE DO BOMFIM TRUTA NETO",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Maria Luiza Andrade Cavalcanti",
+            "label": "Maria Luiza Andrade Cavalcanti",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Luana Lyz Araujo Rocha",
+            "label": "Luana Lyz Araujo Rocha",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Rebeca Morais Silva Santos",
+            "label": "Rebeca Morais Silva Santos",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Thais Nicole Freitas de Oliveira",
+            "label": "Thais Nicole Freitas de Oliveira",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Oscar Henrique Torre\u00e3o Vilar de Brito",
+            "label": "Oscar Henrique Torre\u00e3o Vilar de Brito",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "J\u00falia Cruz de Ara\u00fajo Andrade",
+            "label": "J\u00falia Cruz de Ara\u00fajo Andrade",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Andre Felipe Almeida Das Neves",
+            "label": "Andre Felipe Almeida Das Neves",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Yasmim Dantas da Costa Souza",
+            "label": "Yasmim Dantas da Costa Souza",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Mercia Regina da Silva",
+            "label": "Mercia Regina da Silva",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Lucas Leonardo Mayer Almeida",
+            "label": "Lucas Leonardo Mayer Almeida",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Ana Virg\u00ednia Souza Nery",
+            "label": "Ana Virg\u00ednia Souza Nery",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Sonally Cecilia Dantas Sales",
+            "label": "Sonally Cecilia Dantas Sales",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Camila De Sousa Martins",
+            "label": "Camila De Sousa Martins",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Jo\u00e3o Vitor Da Silva Souza",
+            "label": "Jo\u00e3o Vitor Da Silva Souza",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Luana Bringel Leite",
+            "label": "Luana Bringel Leite",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "\u00c9lida Cristina Souza Santos",
+            "label": "\u00c9lida Cristina Souza Santos",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Rebeca de Souza Gonzaga",
+            "label": "Rebeca de Souza Gonzaga",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Lethycia Zenaide Queiroz Melo",
+            "label": "Lethycia Zenaide Queiroz Melo",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Sabrina Meira Ara\u00fajo De Andrade",
+            "label": "Sabrina Meira Ara\u00fajo De Andrade",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Gabriella Let\u00edcia Cabral de Ara\u00fajo",
+            "label": "Gabriella Let\u00edcia Cabral de Ara\u00fajo",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Ananda Vilar Vidal",
+            "label": "Ananda Vilar Vidal",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Camila Cavalcanti Galdino",
+            "label": "Camila Cavalcanti Galdino",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Elas Computa\u00e7\u00e3o",
+            "label": "Elas Computa\u00e7\u00e3o",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Melissa Maria Nascimento Eul\u00e1lio Agra Lima",
+            "label": "Melissa Maria Nascimento Eul\u00e1lio Agra Lima",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Ana Lu\u00edza Cavalcante Ramos",
+            "label": "Ana Lu\u00edza Cavalcante Ramos",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Maria Luiza Rufino Ferreira",
+            "label": "Maria Luiza Rufino Ferreira",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Ana Beatriz Araujo Barbosa",
+            "label": "Ana Beatriz Araujo Barbosa",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Davi Falc\u00e3o Arag\u00e3o Ferreira",
+            "label": "Davi Falc\u00e3o Arag\u00e3o Ferreira",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Anthony Willy Miranda Pereira",
+            "label": "Anthony Willy Miranda Pereira",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Lara marina",
+            "label": "Lara marina",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "beatriz matos",
+            "label": "beatriz matos",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Viviane Alves da Silva",
+            "label": "Viviane Alves da Silva",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Daniele de Oliveira Sousa",
+            "label": "Daniele de Oliveira Sousa",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Ana Cec\u00edlia Carvalho de Lima",
+            "label": "Ana Cec\u00edlia Carvalho de Lima",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Higor Albuquerque Feitoza",
+            "label": "Higor Albuquerque Feitoza",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "P\u00e2mella Vit\u00f3ria Gomes Farias",
+            "label": "P\u00e2mella Vit\u00f3ria Gomes Farias",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Isadora Lucena",
+            "label": "Isadora Lucena",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Vit\u00f3ria Galdino Da Silva",
+            "label": "Vit\u00f3ria Galdino Da Silva",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Anna Livia Dos Santos Macedo Costa",
+            "label": "Anna Livia Dos Santos Macedo Costa",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Bianka Vit\u00f3ria Silva Lima",
+            "label": "Bianka Vit\u00f3ria Silva Lima",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Gabriel Guimar\u00e3es Souza",
+            "label": "Gabriel Guimar\u00e3es Souza",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Gicelly Nayara Gomes De Andrade",
+            "label": "Gicelly Nayara Gomes De Andrade",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Matheus Hensley de Figueiredo e Silva",
+            "label": "Matheus Hensley de Figueiredo e Silva",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Amanda Carolina L\u00facia Santana",
+            "label": "Amanda Carolina L\u00facia Santana",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Kailany Gabriely Santos da Silva",
+            "label": "Kailany Gabriely Santos da Silva",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Iara Lays Santos Ara\u00fajo",
+            "label": "Iara Lays Santos Ara\u00fajo",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Lorena Nascimento Carvalho",
+            "label": "Lorena Nascimento Carvalho",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Cauany Nunes Rodrigues",
+            "label": "Cauany Nunes Rodrigues",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Clarice Leite Rangel",
+            "label": "Clarice Leite Rangel",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Lavinia Donato Ribeiro",
+            "label": "Lavinia Donato Ribeiro",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "maria carolina vieira",
+            "label": "maria carolina vieira",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Lucas Andr\u00e9 Monteiro Sousa",
+            "label": "Lucas Andr\u00e9 Monteiro Sousa",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "L\u00edvia Maria Candido Feitosa",
+            "label": "L\u00edvia Maria Candido Feitosa",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "M\u00e1rcia Thais Revor\u00eado Aires",
+            "label": "M\u00e1rcia Thais Revor\u00eado Aires",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Maria Eduarda Ara\u00fajo de Oliveira",
+            "label": "Maria Eduarda Ara\u00fajo de Oliveira",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Eyshila Buriti de Araujo Azevedo",
+            "label": "Eyshila Buriti de Araujo Azevedo",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "LAIS FERREIRA LIRA",
+            "label": "LAIS FERREIRA LIRA",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Leticia Luna Dias Barbosa",
+            "label": "Leticia Luna Dias Barbosa",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Ca\u00edque Calazans Campelo",
+            "label": "Ca\u00edque Calazans Campelo",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Luiza Oliveira de Carvalho",
+            "label": "Luiza Oliveira de Carvalho",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Sofia Luiza Da Silva Queiroz",
+            "label": "Sofia Luiza Da Silva Queiroz",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Luana Dos Santos Liberato",
+            "label": "Luana Dos Santos Liberato",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Iasmim Maria Freire da Silva Torres",
+            "label": "Iasmim Maria Freire da Silva Torres",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Maria Lu\u00edsa Pereira Gomes",
+            "label": "Maria Lu\u00edsa Pereira Gomes",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Gilmara Carliany Lustoza Gomes",
+            "label": "Gilmara Carliany Lustoza Gomes",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Diogo Medeiros",
+            "label": "Diogo Medeiros",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Anna Beatriz Lucena Lira",
+            "label": "Anna Beatriz Lucena Lira",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Fabiano Victor De Franca Araujo",
+            "label": "Fabiano Victor De Franca Araujo",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "beatriz de melo paiva",
+            "label": "beatriz de melo paiva",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Lillya Maria M\u00e9lo de Lima",
+            "label": "Lillya Maria M\u00e9lo de Lima",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Aline De Brito Das Neves",
+            "label": "Aline De Brito Das Neves",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "MATEUS ALVES DOS SANTOS",
+            "label": "MATEUS ALVES DOS SANTOS",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Gabriel Pombo Diniz",
+            "label": "Gabriel Pombo Diniz",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Tereza Beatriz Veloso Antonino",
+            "label": "Tereza Beatriz Veloso Antonino",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "Anna Beatriz Soares Furtado",
+            "label": "Anna Beatriz Soares Furtado",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Lucas Ariel Alves de Carvalho",
+            "label": "Lucas Ariel Alves de Carvalho",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Gabriela Virginia Melo Mendes",
+            "label": "Gabriela Virginia Melo Mendes",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Pedro Henrisue De Melo Freire",
+            "label": "Pedro Henrisue De Melo Freire",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Bruna Let\u00edcia Dos Anjos Medeiros",
+            "label": "Bruna Let\u00edcia Dos Anjos Medeiros",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "\u00cdris Almeida Oliveira de Farias",
+            "label": "\u00cdris Almeida Oliveira de Farias",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Andreza Costa dos Santos",
+            "label": "Andreza Costa dos Santos",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Mikael Renan de Oliveira",
+            "label": "Mikael Renan de Oliveira",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "L\u00edvia Aniely de Oliveira Almeida",
+            "label": "L\u00edvia Aniely de Oliveira Almeida",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Maria Helena Barros Moraes",
+            "label": "Maria Helena Barros Moraes",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Camila Gomes Dos Santos",
+            "label": "Camila Gomes Dos Santos",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Galadriella Goguadze de Medeiros",
+            "label": "Galadriella Goguadze de Medeiros",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "Isadora Rodrigues Bessa Silva",
+            "label": "Isadora Rodrigues Bessa Silva",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Aluska  Freire Gouveia",
+            "label": "Aluska  Freire Gouveia",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Anny Caroline Alves de Souto",
+            "label": "Anny Caroline Alves de Souto",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Helen Bento Cavalcanti",
+            "label": "Helen Bento Cavalcanti",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "SHEILA MARIA MENDES PAIVA",
+            "label": "SHEILA MARIA MENDES PAIVA",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        },
+        {
+            "id": "Larissa Lucena Vasconcelos",
+            "label": "Larissa Lucena Vasconcelos",
+            "tipo": "pessoa",
+            "color": "#FF8C00",
+            "shape": "dot"
+        },
+        {
+            "id": "Maria Joice De Souza Farias",
+            "label": "Maria Joice De Souza Farias",
+            "tipo": "pessoa",
+            "color": "#a30161",
+            "shape": "dot"
+        },
+        {
+            "id": "Anne Grazieli Marques Silva",
+            "label": "Anne Grazieli Marques Silva",
+            "tipo": "pessoa",
+            "color": "#f4cbc1",
+            "shape": "dot"
+        },
+        {
+            "id": "GEOVANA DA SILVA VENANCIO",
+            "label": "GEOVANA DA SILVA VENANCIO",
+            "tipo": "pessoa",
+            "color": "#0097b2",
+            "shape": "dot"
+        },
+        {
+            "id": "Janaina Gabrielly Barbosa Farias",
+            "label": "Janaina Gabrielly Barbosa Farias",
+            "tipo": "pessoa",
+            "color": "#fbb633",
+            "shape": "dot"
+        },
+        {
+            "id": "Jo\u00e3o Bruno Tavares Uchoa",
+            "label": "Jo\u00e3o Bruno Tavares Uchoa",
+            "tipo": "pessoa",
+            "color": "#8A2BE2",
+            "shape": "dot"
+        },
+        {
+            "id": "Sabrina Ferreira",
+            "label": "Sabrina Ferreira",
+            "tipo": "pessoa",
+            "color": "#DC143C",
+            "shape": "dot"
+        },
+        {
+            "id": "ALLISON SANTOS DA SILVA",
+            "label": "ALLISON SANTOS DA SILVA",
+            "tipo": "pessoa",
+            "color": "#228B22",
+            "shape": "dot"
+        }
+    ],
+    "edges": [
+        {
+            "from": "Beatriz De Souza Meneses",
+            "to": "Desenvolvimento de Software"
+        },
+        {
+            "from": "Beatriz De Souza Meneses",
+            "to": "Ci\u00eancia de Dados"
+        },
+        {
+            "from": "Beatriz De Souza Meneses",
+            "to": "Intelig\u00eancia Artifical / Machile Learning"
+        },
+        {
+            "from": "Beatriz De Souza Meneses",
+            "to": "Mulheres na Tecnologia"
+        },
+        {
+            "from": "Beatriz De Souza Meneses",
+            "to": "Computa\u00e7\u00e3o em Nuvem"
+        },
+        {
+            "from": "Beatriz De Souza Meneses",
+            "to": "DevOps"
+        },
+        {
+            "from": "Beatriz De Souza Meneses",
+            "to": "Internet das Coisas (IoT)"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Rebeca Barbosa Louren\u00e7o"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Vit\u00f3ria Maria do Nascimento"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Jo\u00e3o Antonio de Melo Queiroz"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Mirelle Maria de Oliveira Rocha"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Joyce Vit\u00f3ria Nascimento Rodrigues"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Maria Eduarda Viana Cordeiro dos Santos"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Maelly Kelly Viana de sousa"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Rayanne de Oliveira Bento"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Brenda Maria da Silva Diniz"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Patr\u00edcia Santos Cunha"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Eliane Tamara Lima Oliveira"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Ana Clara Gon\u00e7alves da Silva Dias"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Vinicius Ataide Delgado"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Ra\u00edna de Ara\u00fajo Souza"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Joyce Greg\u00f3rio da Silva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Erik Luan"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Bruna Rocha Cavalcanti"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "JOSE DO BOMFIM TRUTA NETO"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Maria Luiza Andrade Cavalcanti"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Rebeca Morais Silva Santos"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Thais Nicole Freitas de Oliveira"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Oscar Henrique Torre\u00e3o Vilar de Brito"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "J\u00falia Cruz de Ara\u00fajo Andrade"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Andre Felipe Almeida Das Neves"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Yasmim Dantas da Costa Souza"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Ana Virg\u00ednia Souza Nery"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Camila De Sousa Martins"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Jo\u00e3o Vitor Da Silva Souza"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Luana Bringel Leite"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "\u00c9lida Cristina Souza Santos"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Rebeca de Souza Gonzaga"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Gabriella Let\u00edcia Cabral de Ara\u00fajo"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Ananda Vilar Vidal"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Camila Cavalcanti Galdino"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Elas Computa\u00e7\u00e3o"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Maria Luiza Rufino Ferreira"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Ana Beatriz Araujo Barbosa"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Anthony Willy Miranda Pereira"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Lara marina"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "beatriz matos"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Viviane Alves da Silva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Ana Cec\u00edlia Carvalho de Lima"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Vit\u00f3ria Galdino Da Silva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Anna Livia Dos Santos Macedo Costa"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Gabriel Guimar\u00e3es Souza"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Gicelly Nayara Gomes De Andrade"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Matheus Hensley de Figueiredo e Silva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Amanda Carolina L\u00facia Santana"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Kailany Gabriely Santos da Silva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Lorena Nascimento Carvalho"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Cauany Nunes Rodrigues"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Lavinia Donato Ribeiro"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "L\u00edvia Maria Candido Feitosa"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "M\u00e1rcia Thais Revor\u00eado Aires"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Maria Eduarda Ara\u00fajo de Oliveira"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Eyshila Buriti de Araujo Azevedo"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "LAIS FERREIRA LIRA"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Leticia Luna Dias Barbosa"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Luiza Oliveira de Carvalho"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Sofia Luiza Da Silva Queiroz"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Luana Dos Santos Liberato"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Iasmim Maria Freire da Silva Torres"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Maria Lu\u00edsa Pereira Gomes"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Diogo Medeiros"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Fabiano Victor De Franca Araujo"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "beatriz de melo paiva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Lillya Maria M\u00e9lo de Lima"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Aline De Brito Das Neves"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "MATEUS ALVES DOS SANTOS"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Gabriel Pombo Diniz"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Anna Beatriz Soares Furtado"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Lucas Ariel Alves de Carvalho"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Gabriela Virginia Melo Mendes"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Andreza Costa dos Santos"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Mikael Renan de Oliveira"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "L\u00edvia Aniely de Oliveira Almeida"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Maria Helena Barros Moraes"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Camila Gomes Dos Santos"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Isadora Rodrigues Bessa Silva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Anny Caroline Alves de Souto"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "SHEILA MARIA MENDES PAIVA"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Anne Grazieli Marques Silva"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "GEOVANA DA SILVA VENANCIO"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Jo\u00e3o Bruno Tavares Uchoa"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "Sabrina Ferreira"
+        },
+        {
+            "from": "Desenvolvimento de Software",
+            "to": "ALLISON SANTOS DA SILVA"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Vit\u00f3ria Maria do Nascimento"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Tamires Santiago Oliveira"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Jo\u00e3o Antonio de Melo Queiroz"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Mirelle Maria de Oliveira Rocha"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Joyce Vit\u00f3ria Nascimento Rodrigues"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Maria Eduarda Viana Cordeiro dos Santos"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Caroline de Oliveira Cordeiro"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Maelly Kelly Viana de sousa"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Rayanne de Oliveira Bento"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Eliane Tamara Lima Oliveira"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Ana Clara Gon\u00e7alves da Silva Dias"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Moab Alves Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Joyce Greg\u00f3rio da Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Sabrina Sousa"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Erik Luan"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Maria Luiza Andrade Cavalcanti"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Luana Lyz Araujo Rocha"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Rebeca Morais Silva Santos"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "J\u00falia Cruz de Ara\u00fajo Andrade"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Andre Felipe Almeida Das Neves"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Yasmim Dantas da Costa Souza"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Mercia Regina da Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Ana Virg\u00ednia Souza Nery"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Sonally Cecilia Dantas Sales"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Camila De Sousa Martins"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Luana Bringel Leite"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Rebeca de Souza Gonzaga"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Ananda Vilar Vidal"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Camila Cavalcanti Galdino"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Melissa Maria Nascimento Eul\u00e1lio Agra Lima"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Davi Falc\u00e3o Arag\u00e3o Ferreira"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Anthony Willy Miranda Pereira"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Lara marina"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Viviane Alves da Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Daniele de Oliveira Sousa"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Ana Cec\u00edlia Carvalho de Lima"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "P\u00e2mella Vit\u00f3ria Gomes Farias"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Anna Livia Dos Santos Macedo Costa"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Gabriel Guimar\u00e3es Souza"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Matheus Hensley de Figueiredo e Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Kailany Gabriely Santos da Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Clarice Leite Rangel"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "L\u00edvia Maria Candido Feitosa"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "M\u00e1rcia Thais Revor\u00eado Aires"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Eyshila Buriti de Araujo Azevedo"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "LAIS FERREIRA LIRA"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Iasmim Maria Freire da Silva Torres"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Maria Lu\u00edsa Pereira Gomes"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Anna Beatriz Lucena Lira"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "beatriz de melo paiva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Lillya Maria M\u00e9lo de Lima"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "MATEUS ALVES DOS SANTOS"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Anna Beatriz Soares Furtado"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Lucas Ariel Alves de Carvalho"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Gabriela Virginia Melo Mendes"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Pedro Henrisue De Melo Freire"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Bruna Let\u00edcia Dos Anjos Medeiros"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "\u00cdris Almeida Oliveira de Farias"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Andreza Costa dos Santos"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Mikael Renan de Oliveira"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "L\u00edvia Aniely de Oliveira Almeida"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Isadora Rodrigues Bessa Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Aluska  Freire Gouveia"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Anny Caroline Alves de Souto"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Helen Bento Cavalcanti"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "SHEILA MARIA MENDES PAIVA"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Maria Joice De Souza Farias"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Anne Grazieli Marques Silva"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Jo\u00e3o Bruno Tavares Uchoa"
+        },
+        {
+            "from": "Ci\u00eancia de Dados",
+            "to": "Sabrina Ferreira"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Vit\u00f3ria Maria do Nascimento"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Jo\u00e3o Antonio de Melo Queiroz"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Mirelle Maria de Oliveira Rocha"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Joyce Vit\u00f3ria Nascimento Rodrigues"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Maria Eduarda Viana Cordeiro dos Santos"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Maelly Kelly Viana de sousa"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Brenda Maria da Silva Diniz"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Patr\u00edcia Santos Cunha"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Eliane Tamara Lima Oliveira"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Ana Clara Gon\u00e7alves da Silva Dias"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Vinicius Ataide Delgado"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Moab Alves Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Joyce Greg\u00f3rio da Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Sabrina Sousa"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Erik Luan"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Noiana De Paula"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "JOSE DO BOMFIM TRUTA NETO"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Luana Lyz Araujo Rocha"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Thais Nicole Freitas de Oliveira"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Oscar Henrique Torre\u00e3o Vilar de Brito"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "J\u00falia Cruz de Ara\u00fajo Andrade"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Andre Felipe Almeida Das Neves"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Yasmim Dantas da Costa Souza"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Mercia Regina da Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Lucas Leonardo Mayer Almeida"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Ana Virg\u00ednia Souza Nery"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Sonally Cecilia Dantas Sales"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Camila De Sousa Martins"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Luana Bringel Leite"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Rebeca de Souza Gonzaga"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Lethycia Zenaide Queiroz Melo"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Sabrina Meira Ara\u00fajo De Andrade"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Gabriella Let\u00edcia Cabral de Ara\u00fajo"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Ananda Vilar Vidal"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Camila Cavalcanti Galdino"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Ana Lu\u00edza Cavalcante Ramos"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Davi Falc\u00e3o Arag\u00e3o Ferreira"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Anthony Willy Miranda Pereira"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Lara marina"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Viviane Alves da Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Daniele de Oliveira Sousa"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Ana Cec\u00edlia Carvalho de Lima"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Higor Albuquerque Feitoza"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "P\u00e2mella Vit\u00f3ria Gomes Farias"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Vit\u00f3ria Galdino Da Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Anna Livia Dos Santos Macedo Costa"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Bianka Vit\u00f3ria Silva Lima"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Gabriel Guimar\u00e3es Souza"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Matheus Hensley de Figueiredo e Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Iara Lays Santos Ara\u00fajo"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Lorena Nascimento Carvalho"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Cauany Nunes Rodrigues"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Clarice Leite Rangel"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "maria carolina vieira"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "M\u00e1rcia Thais Revor\u00eado Aires"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Maria Eduarda Ara\u00fajo de Oliveira"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Eyshila Buriti de Araujo Azevedo"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "LAIS FERREIRA LIRA"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Leticia Luna Dias Barbosa"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Sofia Luiza Da Silva Queiroz"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Luana Dos Santos Liberato"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Iasmim Maria Freire da Silva Torres"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Maria Lu\u00edsa Pereira Gomes"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Gilmara Carliany Lustoza Gomes"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Fabiano Victor De Franca Araujo"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "beatriz de melo paiva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Lillya Maria M\u00e9lo de Lima"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "MATEUS ALVES DOS SANTOS"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Anna Beatriz Soares Furtado"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Lucas Ariel Alves de Carvalho"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Gabriela Virginia Melo Mendes"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Bruna Let\u00edcia Dos Anjos Medeiros"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "\u00cdris Almeida Oliveira de Farias"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Andreza Costa dos Santos"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "L\u00edvia Aniely de Oliveira Almeida"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Camila Gomes Dos Santos"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Isadora Rodrigues Bessa Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Anny Caroline Alves de Souto"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Helen Bento Cavalcanti"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "SHEILA MARIA MENDES PAIVA"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Larissa Lucena Vasconcelos"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Anne Grazieli Marques Silva"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Janaina Gabrielly Barbosa Farias"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "Jo\u00e3o Bruno Tavares Uchoa"
+        },
+        {
+            "from": "Intelig\u00eancia Artifical / Machile Learning",
+            "to": "ALLISON SANTOS DA SILVA"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Rebeca Barbosa Louren\u00e7o"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Jo\u00e3o Antonio de Melo Queiroz"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Mirelle Maria de Oliveira Rocha"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Joyce Vit\u00f3ria Nascimento Rodrigues"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Maria Eduarda Viana Cordeiro dos Santos"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Caroline de Oliveira Cordeiro"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Rayanne de Oliveira Bento"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Brenda Maria da Silva Diniz"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Patr\u00edcia Santos Cunha"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Eliane Tamara Lima Oliveira"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Ana Clara Gon\u00e7alves da Silva Dias"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Ra\u00edna de Ara\u00fajo Souza"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Joyce Greg\u00f3rio da Silva"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Luana Lyz Araujo Rocha"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Thais Nicole Freitas de Oliveira"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "J\u00falia Cruz de Ara\u00fajo Andrade"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Yasmim Dantas da Costa Souza"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Mercia Regina da Silva"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Ana Virg\u00ednia Souza Nery"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Sonally Cecilia Dantas Sales"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Camila De Sousa Martins"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Luana Bringel Leite"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "\u00c9lida Cristina Souza Santos"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Rebeca de Souza Gonzaga"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Lethycia Zenaide Queiroz Melo"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Camila Cavalcanti Galdino"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Melissa Maria Nascimento Eul\u00e1lio Agra Lima"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Maria Luiza Rufino Ferreira"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Ana Beatriz Araujo Barbosa"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Lara marina"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "P\u00e2mella Vit\u00f3ria Gomes Farias"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Vit\u00f3ria Galdino Da Silva"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Matheus Hensley de Figueiredo e Silva"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Amanda Carolina L\u00facia Santana"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Kailany Gabriely Santos da Silva"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Iara Lays Santos Ara\u00fajo"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Lorena Nascimento Carvalho"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Clarice Leite Rangel"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Lavinia Donato Ribeiro"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "maria carolina vieira"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Maria Eduarda Ara\u00fajo de Oliveira"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Eyshila Buriti de Araujo Azevedo"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Sofia Luiza Da Silva Queiroz"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Luana Dos Santos Liberato"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Iasmim Maria Freire da Silva Torres"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Lillya Maria M\u00e9lo de Lima"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Anna Beatriz Soares Furtado"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "\u00cdris Almeida Oliveira de Farias"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Andreza Costa dos Santos"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Camila Gomes Dos Santos"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Galadriella Goguadze de Medeiros"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Isadora Rodrigues Bessa Silva"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Aluska  Freire Gouveia"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Anny Caroline Alves de Souto"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Helen Bento Cavalcanti"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "SHEILA MARIA MENDES PAIVA"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Larissa Lucena Vasconcelos"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Maria Joice De Souza Farias"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "Sabrina Ferreira"
+        },
+        {
+            "from": "Mulheres na Tecnologia",
+            "to": "ALLISON SANTOS DA SILVA"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Jo\u00e3o Antonio de Melo Queiroz"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Mirelle Maria de Oliveira Rocha"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Joyce Vit\u00f3ria Nascimento Rodrigues"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Vinicius Ataide Delgado"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Moab Alves Silva"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Joyce Greg\u00f3rio da Silva"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Bruna Rocha Cavalcanti"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "JOSE DO BOMFIM TRUTA NETO"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Maria Luiza Andrade Cavalcanti"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Luana Lyz Araujo Rocha"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Thais Nicole Freitas de Oliveira"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Oscar Henrique Torre\u00e3o Vilar de Brito"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Mercia Regina da Silva"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Lucas Leonardo Mayer Almeida"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Ana Virg\u00ednia Souza Nery"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Luana Bringel Leite"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Ananda Vilar Vidal"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Daniele de Oliveira Sousa"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Ana Cec\u00edlia Carvalho de Lima"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "P\u00e2mella Vit\u00f3ria Gomes Farias"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Vit\u00f3ria Galdino Da Silva"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Kailany Gabriely Santos da Silva"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Lorena Nascimento Carvalho"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Lavinia Donato Ribeiro"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "L\u00edvia Maria Candido Feitosa"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Maria Eduarda Ara\u00fajo de Oliveira"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Anna Beatriz Lucena Lira"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "MATEUS ALVES DOS SANTOS"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Gabriel Pombo Diniz"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Lucas Ariel Alves de Carvalho"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Bruna Let\u00edcia Dos Anjos Medeiros"
+        },
+        {
+            "from": "Computa\u00e7\u00e3o em Nuvem",
+            "to": "Janaina Gabrielly Barbosa Farias"
+        },
+        {
+            "from": "DevOps",
+            "to": "Vit\u00f3ria Maria do Nascimento"
+        },
+        {
+            "from": "DevOps",
+            "to": "Mirelle Maria de Oliveira Rocha"
+        },
+        {
+            "from": "DevOps",
+            "to": "Vinicius Ataide Delgado"
+        },
+        {
+            "from": "DevOps",
+            "to": "Joyce Greg\u00f3rio da Silva"
+        },
+        {
+            "from": "DevOps",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "DevOps",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "DevOps",
+            "to": "JOSE DO BOMFIM TRUTA NETO"
+        },
+        {
+            "from": "DevOps",
+            "to": "Luana Lyz Araujo Rocha"
+        },
+        {
+            "from": "DevOps",
+            "to": "Thais Nicole Freitas de Oliveira"
+        },
+        {
+            "from": "DevOps",
+            "to": "Oscar Henrique Torre\u00e3o Vilar de Brito"
+        },
+        {
+            "from": "DevOps",
+            "to": "Andre Felipe Almeida Das Neves"
+        },
+        {
+            "from": "DevOps",
+            "to": "Yasmim Dantas da Costa Souza"
+        },
+        {
+            "from": "DevOps",
+            "to": "Jo\u00e3o Vitor Da Silva Souza"
+        },
+        {
+            "from": "DevOps",
+            "to": "Ananda Vilar Vidal"
+        },
+        {
+            "from": "DevOps",
+            "to": "Camila Cavalcanti Galdino"
+        },
+        {
+            "from": "DevOps",
+            "to": "Ana Beatriz Araujo Barbosa"
+        },
+        {
+            "from": "DevOps",
+            "to": "Ana Cec\u00edlia Carvalho de Lima"
+        },
+        {
+            "from": "DevOps",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "DevOps",
+            "to": "Gicelly Nayara Gomes De Andrade"
+        },
+        {
+            "from": "DevOps",
+            "to": "Lorena Nascimento Carvalho"
+        },
+        {
+            "from": "DevOps",
+            "to": "MATEUS ALVES DOS SANTOS"
+        },
+        {
+            "from": "DevOps",
+            "to": "Gabriel Pombo Diniz"
+        },
+        {
+            "from": "DevOps",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "DevOps",
+            "to": "Camila Gomes Dos Santos"
+        },
+        {
+            "from": "DevOps",
+            "to": "Galadriella Goguadze de Medeiros"
+        },
+        {
+            "from": "DevOps",
+            "to": "Janaina Gabrielly Barbosa Farias"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Vit\u00f3ria Maria do Nascimento"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Luana Lyz Araujo Rocha"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Thais Nicole Freitas de Oliveira"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Mercia Regina da Silva"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Camila De Sousa Martins"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Luana Bringel Leite"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Sabrina Meira Ara\u00fajo De Andrade"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Melissa Maria Nascimento Eul\u00e1lio Agra Lima"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Maria Luiza Rufino Ferreira"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Lara marina"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Daniele de Oliveira Sousa"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Ana Cec\u00edlia Carvalho de Lima"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Sofia Luiza Da Silva Queiroz"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Gabriel Pombo Diniz"
+        },
+        {
+            "from": "Internet das Coisas (IoT)",
+            "to": "Anna Beatriz Soares Furtado"
+        },
+        {
+            "from": "Rebeca Barbosa Louren\u00e7o",
+            "to": "Educa\u00e7\u00e3o e Tecnologia"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Joyce Vit\u00f3ria Nascimento Rodrigues"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Maria Eduarda Viana Cordeiro dos Santos"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Maelly Kelly Viana de sousa"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Ana Livia Costa Celestino Santos"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Patr\u00edcia Santos Cunha"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Ana Clara Gon\u00e7alves da Silva Dias"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Joyce Greg\u00f3rio da Silva"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Erik Luan"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Bruna Rocha Cavalcanti"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Thais Nicole Freitas de Oliveira"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Mercia Regina da Silva"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Jo\u00e3o Vitor Da Silva Souza"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Lethycia Zenaide Queiroz Melo"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Camila Cavalcanti Galdino"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Anthony Willy Miranda Pereira"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Viviane Alves da Silva"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Daniele de Oliveira Sousa"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Matheus Hensley de Figueiredo e Silva"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Amanda Carolina L\u00facia Santana"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Lorena Nascimento Carvalho"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Cauany Nunes Rodrigues"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Luiza Oliveira de Carvalho"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Sofia Luiza Da Silva Queiroz"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Luana Dos Santos Liberato"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "\u00cdris Almeida Oliveira de Farias"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Andreza Costa dos Santos"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Galadriella Goguadze de Medeiros"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Isadora Rodrigues Bessa Silva"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "SHEILA MARIA MENDES PAIVA"
+        },
+        {
+            "from": "Educa\u00e7\u00e3o e Tecnologia",
+            "to": "Larissa Lucena Vasconcelos"
+        },
+        {
+            "from": "Vit\u00f3ria Maria do Nascimento",
+            "to": "Ciberseguran\u00e7a"
+        },
+        {
+            "from": "Vit\u00f3ria Maria do Nascimento",
+            "to": "Blockchain / Web3"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Jo\u00e3o Antonio de Melo Queiroz"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Mirelle Maria de Oliveira Rocha"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Maria Eduarda Viana Cordeiro dos Santos"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Maelly Kelly Viana de sousa"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Brenda Maria da Silva Diniz"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Noiana De Paula"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Luana Lyz Araujo Rocha"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Oscar Henrique Torre\u00e3o Vilar de Brito"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "J\u00falia Cruz de Ara\u00fajo Andrade"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Camila De Sousa Martins"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Luana Bringel Leite"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "\u00c9lida Cristina Souza Santos"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Lethycia Zenaide Queiroz Melo"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Sabrina Meira Ara\u00fajo De Andrade"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Melissa Maria Nascimento Eul\u00e1lio Agra Lima"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Ana Beatriz Araujo Barbosa"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Davi Falc\u00e3o Arag\u00e3o Ferreira"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Anthony Willy Miranda Pereira"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "beatriz matos"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Ana Cec\u00edlia Carvalho de Lima"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Higor Albuquerque Feitoza"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Gabriel Guimar\u00e3es Souza"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Gicelly Nayara Gomes De Andrade"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Iara Lays Santos Ara\u00fajo"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Cauany Nunes Rodrigues"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Clarice Leite Rangel"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "M\u00e1rcia Thais Revor\u00eado Aires"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Maria Eduarda Ara\u00fajo de Oliveira"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "LAIS FERREIRA LIRA"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Luiza Oliveira de Carvalho"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Gilmara Carliany Lustoza Gomes"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Lillya Maria M\u00e9lo de Lima"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Gabriel Pombo Diniz"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Anna Beatriz Soares Furtado"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Lucas Ariel Alves de Carvalho"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Galadriella Goguadze de Medeiros"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "SHEILA MARIA MENDES PAIVA"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "GEOVANA DA SILVA VENANCIO"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Janaina Gabrielly Barbosa Farias"
+        },
+        {
+            "from": "Ciberseguran\u00e7a",
+            "to": "Sabrina Ferreira"
+        },
+        {
+            "from": "Blockchain / Web3",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Blockchain / Web3",
+            "to": "Andre Felipe Almeida Das Neves"
+        },
+        {
+            "from": "Blockchain / Web3",
+            "to": "Ana Cec\u00edlia Carvalho de Lima"
+        },
+        {
+            "from": "Blockchain / Web3",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Blockchain / Web3",
+            "to": "Gabriel Guimar\u00e3es Souza"
+        },
+        {
+            "from": "Blockchain / Web3",
+            "to": "Cauany Nunes Rodrigues"
+        },
+        {
+            "from": "Blockchain / Web3",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Blockchain / Web3",
+            "to": "Gabriel Pombo Diniz"
+        },
+        {
+            "from": "Jo\u00e3o Antonio de Melo Queiroz",
+            "to": "UX/UI Designer"
+        },
+        {
+            "from": "Jo\u00e3o Antonio de Melo Queiroz",
+            "to": "Games e Realidade Virtual"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Maelly Kelly Viana de sousa"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Ana Livia Costa Celestino Santos"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Brenda Maria da Silva Diniz"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Eliane Tamara Lima Oliveira"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Ana Clara Gon\u00e7alves da Silva Dias"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Joyce Greg\u00f3rio da Silva"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Bruna Rocha Cavalcanti"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Ana Virg\u00ednia Souza Nery"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Sonally Cecilia Dantas Sales"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Jo\u00e3o Vitor Da Silva Souza"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Sabrina Meira Ara\u00fajo De Andrade"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Camila Cavalcanti Galdino"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Melissa Maria Nascimento Eul\u00e1lio Agra Lima"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Maria Luiza Rufino Ferreira"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Lara marina"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "beatriz matos"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Daniele de Oliveira Sousa"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Amanda Carolina L\u00facia Santana"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Iara Lays Santos Ara\u00fajo"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Cauany Nunes Rodrigues"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Lavinia Donato Ribeiro"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Maria Eduarda Ara\u00fajo de Oliveira"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Iasmim Maria Freire da Silva Torres"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Fabiano Victor De Franca Araujo"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Gabriela Virginia Melo Mendes"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Andreza Costa dos Santos"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Mikael Renan de Oliveira"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Isadora Rodrigues Bessa Silva"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Aluska  Freire Gouveia"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Anne Grazieli Marques Silva"
+        },
+        {
+            "from": "UX/UI Designer",
+            "to": "Jo\u00e3o Bruno Tavares Uchoa"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Maelly Kelly Viana de sousa"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Bruna Rocha Cavalcanti"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Andre Felipe Almeida Das Neves"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Sonally Cecilia Dantas Sales"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Camila De Sousa Martins"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Luana Bringel Leite"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "\u00c9lida Cristina Souza Santos"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Lethycia Zenaide Queiroz Melo"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Sabrina Meira Ara\u00fajo De Andrade"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Anthony Willy Miranda Pereira"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Higor Albuquerque Feitoza"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Luana Dos Santos Liberato"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Iasmim Maria Freire da Silva Torres"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Anna Beatriz Soares Furtado"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Bruna Let\u00edcia Dos Anjos Medeiros"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Andreza Costa dos Santos"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "Aluska  Freire Gouveia"
+        },
+        {
+            "from": "Games e Realidade Virtual",
+            "to": "ALLISON SANTOS DA SILVA"
+        },
+        {
+            "from": "Maelly Kelly Viana de sousa",
+            "to": "Open Source e Comunidades"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Rayanne de Oliveira Bento"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Brenda Maria da Silva Diniz"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Vinicius Ataide Delgado"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Maria Eduarda Marinho Cavalcanti"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Gabriela Ferreira Pereira"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Ryan Vinn\u00edcius Tielles Almeida da Silva"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "JOSE DO BOMFIM TRUTA NETO"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Luana Lyz Araujo Rocha"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Andre Felipe Almeida Das Neves"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Camila De Sousa Martins"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Jo\u00e3o Vitor Da Silva Souza"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Anthony Willy Miranda Pereira"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Isadora Lucena"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Cauany Nunes Rodrigues"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Lucas Andr\u00e9 Monteiro Sousa"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Ca\u00edque Calazans Campelo"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Iasmim Maria Freire da Silva Torres"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Fabiano Victor De Franca Araujo"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Gabriel Pombo Diniz"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Tereza Beatriz Veloso Antonino"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "\u00cdris Almeida Oliveira de Farias"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "Helen Bento Cavalcanti"
+        },
+        {
+            "from": "Open Source e Comunidades",
+            "to": "ALLISON SANTOS DA SILVA"
+        }
+    ]
+}

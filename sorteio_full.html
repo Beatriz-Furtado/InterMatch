@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorteio Elas@Conectam</title>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/dist/vis-network.min.js"></script>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start; /* Alinha ao topo */
+            height: 100vh;
+            margin: 0;
+            padding: 20px;
+            background-color: #F8E5E5; /* Mesma cor de fundo do grafo principal */
+            color: #333;
+            box-sizing: border-box; /* Inclui padding na altura */
+        }
+        h2 {
+            color: #a30161;
+            margin-bottom: 20px;
+        }
+        button {
+            background-color: #a30161;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            border-radius: 8px;
+            transition: background-color 0.3s ease;
+            margin-bottom: 20px;
+        }
+        button:hover {
+            background-color: #700041;
+        }
+        #sorteio-info {
+            font-size: 1.2em;
+            color: #d52c01;
+            font-weight: bold;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        #sorteio-resultado {
+            margin-top: 15px;
+            font-size: 1.3em;
+            color: #0097b2;
+            font-weight: bold;
+            text-align: center;
+        }
+        #mynetwork-sorteio {
+            width: 100%;
+            height: 500px; /* Altura do grafo do sorteio */
+            border: 1px solid #ccc;
+            margin-top: 20px;
+            background-color: white; /* Fundo branco para o grafo */
+        }
+    </style>
+</head>
+<body>
+    <h2>Sorteio de Duplas por Interesse</h2>
+    <button id="sortear-btn">Sortear Dupla</button>
+    <div id="sorteio-info"></div>
+    <div id="sorteio-resultado"></div>
+    <div id="mynetwork-sorteio"></div>
+
+    <script src="sorteio_init.js"></script>
+</body>
+</html>
