@@ -142,14 +142,21 @@ setTimeout(function() {
 
         const options = {
             physics: {
+                enabled: true, // Garante que a física está ativada
                 barnesHut: {
-                    gravity: -30000,
-                    centralGravity: 0.3,
-                    springLength: 350,
-                    springStrength: 0.005
+                    gravitationalConstant: -2000, // Substitua 'gravity' por 'gravitationalConstant'
+                                                  // Valores negativos repelem, positivos atraem.
+                                                  // -2000 é um bom ponto de partida.
+                    centralGravity: 0.3, 
+                    springLength: 200,            // Ajuste este valor se precisar de molas mais longas
+                    springConstant: 0.05,         // Substitua 'springStrength' por 'springConstant'
+                                                  // Valor da constante da mola.
+                    damping: 0.09                 // Adicione damping para estabilizar a rede (opcional, mas recomendado)
                 },
+                solver: 'barnesHut', // Especifica o algoritmo de física
                 stabilization: {
-                    iterations: 100
+                    iterations: 100,
+                    updateInterval: 25 // Atualiza a cada 25ms durante a estabilização
                 }
             },
             interaction: {
